@@ -80,7 +80,7 @@ This reference table defines the fields, options, and hit attributes you can sel
 |Referrer Matches Internal URL Filters|A visit whose page URL matches an internal URL filter, as defined for the report suite in Admin Tools.|
 |Referrer Does Not Match Internal URL Filters|The referring URL does not match an internal URL filter, as defined for the report suite in Admin Tools. You can use this setting with  Page URL  and  Exists  to set up a catch-all rule, so that no visits land in the  No Channel Identified  section of the report.|
 |Ignore hits matching internal URL filters|(For referrers) Tracks only hits coming from externally referred sites. Typically, leave this setting enabled unless you want to include internal traffic.|
-|Is First Page of Visit|The first page of a visit detected by Adobe reporting.|
+|Is First Page of Visit|The first page or hit of a visit detected by Adobe reporting.|
 |Page|The page name of a web page on your site that is tagged using Adobe's web beacon. This value is equivalent to  s.pageName . Examples include `Home Page` and `About Us`.|
 |Page Domain|The domain of the page on which the visitor lands, such as `products.example.co.uk`.|
 |Page Domain and Path|The domain and path, such as `products.example.co.uk/mens/pants/overview.html` .|
